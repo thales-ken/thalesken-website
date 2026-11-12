@@ -1,7 +1,7 @@
 ﻿import { SiteFrame } from "./components/SiteFrame";
 
 const work = [
-  { href: "/art", number: "01", label: "ART", image: "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&w=900&q=85", description: "Colorful abstract sculptural artwork" },
+  { href: "/art", number: "01", label: "ART", image: "/images/art-preview.png", description: "Illustration of a fiery magical battle" },
   { href: "/video", number: "02", label: "VIDEO", image: "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=900&q=85", description: "Filmmaker working on a cinematic set" },
   { href: "/code", number: "03", label: "CODE", image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=85", description: "Developer working at a colorful multi-screen setup" },
 ];

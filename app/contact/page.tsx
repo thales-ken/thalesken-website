@@ -12,11 +12,20 @@ export default function ContactPage() {
           <p className="intro-highlight">Have an idea? Get in touch.</p>
           <p className="intro-copy">For collaborations, project inquiries, or just to say hello, send me a message.</p>
         </section>
-        <section className="contact-details">
-          <div><span className="detail-label">EMAIL</span><a className="email-link" href="mailto:thales_ken@hotmail.com">thales_ken@hotmail.com<span aria-hidden="true">↗</span></a></div>
-          <p className="detail-note"></p>
+        <section className="linkedin-card" aria-labelledby="linkedin-name">
+          <div className="profile-avatar" aria-hidden="true">TK</div>
+          <div className="profile-copy">
+            <span className="detail-label">LINKEDIN</span>
+            <h2 id="linkedin-name">Thales Ken Gazieri Kojima</h2>
+            <p>Based in Itaquaquecetuba, São Paulo, Brazil</p>
+            <p>Vivo (Telefônica Brasil) · FIAP alumnus</p>
+          </div>
+          <a className="linkedin-link" href="https://www.linkedin.com/in/thalesken/" target="_blank" rel="noreferrer">VIEW LINKEDIN <span aria-hidden="true">&#8599;</span></a>
         </section>
-        <a className="back-link" href="/">← Back to home</a>
+        <section className="contact-details">
+          <div><span className="detail-label">EMAIL</span><a className="email-link" href="mailto:thales_ken@hotmail.com">thales_ken@hotmail.com<span aria-hidden="true">&#8599;</span></a></div>
+        </section>
+        <a className="back-link" href="/">&#8592; Back to home</a>
       </main>
     </SiteFrame>
   );
