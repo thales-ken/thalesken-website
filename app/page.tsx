@@ -19,7 +19,7 @@ export default function Home() {
         <section className="work-grid" aria-label="Explore my work">
           {work.map((item) => (
             <a className="work-card" href={item.href} key={item.href}>
-              <div className="image-wrap" role="img" aria-label={item.description} style={{ backgroundImage: 'url("' + item.image + '")' }} />
+              <div className="image-wrap" role="img" aria-label={item.description} style={{ backgroundImage: 'url("' + item.image + '")', backgroundPosition: item.label === "CODE" ? "left center" : "center" }} />
               <div className="card-caption"><span>{item.number} / {item.label}</span><span className="arrow" aria-hidden="true">&#8599;</span></div>
             </a>
           ))}
