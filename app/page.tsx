@@ -3,7 +3,7 @@
 const work = [
   { href: "/art", number: "01", label: "ART", image: "/images/art-preview.png", description: "Illustration of a fiery magical battle" },
   { href: "/video", number: "02", label: "VIDEO", image: "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=900&q=85", description: "Filmmaker working on a cinematic set" },
-  { href: "/code", number: "03", label: "CODE", image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=85", description: "Developer working at a colorful multi-screen setup" },
+  { href: "/code", number: "03", label: "CODE", image: "/images/code-preview.png", description: "Code editor displaying a React project" },
 ];
 
 export default function Home() {
